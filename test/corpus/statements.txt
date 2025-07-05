@@ -1,0 +1,28 @@
+==================
+Statements
+==================
+
+' 声明一个整数变量
+整数型 变量A
+
+' 给变量赋值
+变量A = 123
+
+' 调用函数输出变量
+调试输出 (变量A)
+
+---
+
+(source_file
+  (comment)
+  (variable_declaration
+    (type)
+    (identifier))
+  (comment)
+  (assignment_expression
+    (identifier)
+    (number))
+  (comment)
+  (call_expression
+    (identifier)
+    (identifier)))
